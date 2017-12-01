@@ -73,8 +73,9 @@
   \begin{itemize}
 %    \begingroup
 %    \fontsize{8}{10}\selectfont
-     \item GUI vs CLI/TUI
+     \item GUI vs CLI/TUI (compare)
      \item Nelle's Pipeline
+     \item my UNIX story: early '90s (the adventure)
 %    \endgroup
   \end{itemize}
   \vspace{\stretch{1}}
@@ -87,11 +88,17 @@
   \begin{itemize}
 %    \begingroup
 %    \fontsize{8}{10}\selectfont
-     \item whoami
-     \item pwd
-     \item ls
-     \item cd
-     \item tree
+     \item whoami ( whereami (errors) )
+     \item pwd (paths, relative and absolute, / vs \textbackslash, names)
+     \item ls (switches (parameters vs arguments):
+        \begin{itemize}
+           \item -F, -R, -j, -a, -t, -r, 'man ls' vs -h, \textbar more or less, how many?)
+           \item digression: grep (-v ":", -v "\textasciicircum\$")\textbar wc
+           \item lots of commands: which ls, ls /usr/bin \textbar wc
+           \item jump ahead: find . -type f, find . -type d
+        \end{itemize}
+     \item cd (., .., \textasciitilde)
+     \item tab completion and history and \textbf{text} ("Ctrl-r", "!!", "!\$",)
 %    \endgroup
   \end{itemize}
   \vspace{\stretch{1}}
@@ -104,12 +111,12 @@
   \begin{itemize}
 %    \begingroup
 %    \fontsize{8}{10}\selectfont
-     \item mkdir
-     \item less and nano
-     \item touch
-     \item rm
-     \item mv
-     \item cp
+     \item mkdir ('thesis', naming things: please no spaces!)
+     \item less and nano (editor wars: vi, emacs, Gedit)
+     \item touch (empty files, file update time)
+     \item rm (deletion is forever..., rm -rf *, rm -i)
+     \item mv (be careful of silent overwrites! -i)
+     \item cp (also accepts multiple files if last arg is a directory)
 %    \endgroup
   \end{itemize}
   \vspace{\stretch{1}}
@@ -120,19 +127,23 @@
 \begin{slide}{Pipes and Filters:}
   \vspace{\stretch{1}}
   \begin{itemize}
-%    \begingroup
-%    \fontsize{8}{10}\selectfont
-     \item wc
-     \item echo
-     \item redirection
-     \item head
-     \item tail
-     \item cat
-     \item less
-     \item sort
-     \item uniq
-     \item wildcards
-%    \endgroup
+    \begingroup
+    \fontsize{8}{8}\selectfont
+     \item wc ('molecules': wc *.pdb, *t*ne.pdb, *t??ne.pdb, -l, -w, -c)
+     \item wildcards: *, ?, [abc]
+     \item redirection: wc -l * $>$ lengths.txt
+     \item echo: echo "hello" $>$ hellos.txt, echo "hello" $>$$>$ hellos.txt
+     \item cat: cat hellos.txt, cat lengths.txt
+     \item head:wc -l * \textbar head -n 1
+     \item tail:wc -l * \textbar tail -n 1
+     \item sort:wc -l * \textbar sort -n
+     \item each process has 'channels': STDIN, STDOUT, STDERR
+     \item "\textbar" and "$>$" and "$<$" connect these channels
+     \item cat data/animals.txt \textbar head -n 5 \textbar tail -n 3 \textbar sort -r \textbar uniq
+     \item cat data/salmon.txt \textbar uniq, sort data/salmon.txt \textbar uniq (sort -u)
+     \item cut -d , -f 2 data/animals.txt (\textbar sort \textbar uniq -c \textbar wc -l)
+     \item sed and awk
+    \endgroup
   \end{itemize}
   \vspace{\stretch{1}}
 \end{slide}
@@ -142,14 +153,20 @@
 \begin{slide}{Loops:}
   \vspace{\stretch{1}}
   \begin{itemize}
-%    \begingroup
-%    \fontsize{8}{10}\selectfont
-     \item for/in/do/done
-     \item naming files (spaces are evil)
-     \item history ("Ctrl-r", "!!", "!\$",)
-     \item wildcards and dry runs ("*", "?", "[]")
-     \item nested loops
-%    \endgroup
+    \begingroup
+    \fontsize{8}{8}\selectfont
+     \item for/in/do/done: 'creatures': for [i or x or file] in [list or fork] do [task] done
+     \item how to get lists:
+     \begin{itemize}
+        \item wildcards ("*", "?", "[]")
+	\item forks: \$( commands: 'ls', 'find', 'cut' )
+     \end{itemize}
+     \item dry runs (you could damage things...): use echo "to show what would be done"
+     \item nested loops: problem: in data/pdb
+     \begin{itemize}
+        \item find how many atoms, and how many atoms of each type, in each file
+     \end{itemize}
+    \endgroup
   \end{itemize}
   \vspace{\stretch{1}}
 \end{slide}
@@ -164,7 +181,7 @@
      \item 'bash filename' (forking and environments)
      \item arguments: \$1 \$2 etc. ("\$@")
      \item comments
-     \item extract a script from history
+     \item extract a script from history (use the number of atoms problem)
      \item file magic and permissions ("hash bang slash bin slash bash" (shebang))
 %    \endgroup
   \end{itemize}
