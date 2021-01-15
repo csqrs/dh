@@ -10,24 +10,24 @@ Let's start by looking at how to find DH tools. Well, just do a web search with 
 
 There are lots of lists of tools, many associated with university libraries or DH/HSS programs, and they often contain lists of lists of tools. It won't take long to find a hand full of quite large lists of tools:
 
-* [TAPoR](http://tapor.ca/)
- * This is now in version 3, rebuilt in 2018, and incorporates a previous large list, DiRT. Originally targeted at textual analysis tools, with the incorporation of DiRT it now includes many other areas, including GIS, photo/video/audio, etc.
-* [Digital Humanities Tools](http://dhresourcesforprojectbuilding.pbworks.com/w/page/69244319/Digital%20Humanities%20Tools)
- * Maintained and curated by Alan Liu, this is targetted at free or mostly free tools, with a "[b]ias toward tools that can be run online or installed on a personal computer without needing an institutional server." ...in other words, right up our alley!
++ [TAPoR](http://tapor.ca/)
+  * This is now in version 3, rebuilt in 2018, and incorporates a previous large list, DiRT. Originally targeted at textual analysis tools, with the incorporation of DiRT it now includes many other areas, including GIS, photo/video/audio, etc.
++ [Digital Humanities Tools](http://dhresourcesforprojectbuilding.pbworks.com/w/page/69244319/Digital%20Humanities%20Tools)
+  * Maintained and curated by Alan Liu, this is targetted at free or mostly free tools, with a "[b]ias toward tools that can be run online or installed on a personal computer without needing an institutional server." ...in other words, right up our alley!
 
 On the social sciences side of things, I found the following (from a similar random search for "social sciences tools"):
 
-* [Sage Ocean Research Tools Directory](https://ocean.sagepub.com/research-tools-directory)
-**  This is provided by the Sage Publishing company as part of their Sage Ocean research portal.
-* [Data Analysis Tools and Training](https://ox.libguides.com/c.php?g=422947&p=2888387)
- * This is maintained by the Bodleian Library at Oxford.
++ [Sage Ocean Research Tools Directory](https://ocean.sagepub.com/research-tools-directory)
+  *  This is provided by the Sage Publishing company as part of their Sage Ocean research portal.
++ [Data Analysis Tools and Training](https://ox.libguides.com/c.php?g=422947&p=2888387)
+  * This is maintained by the Bodleian Library at Oxford.
 
 There seem to be fewer such resource lists for social science than for humanities, though that's anecdotal. At any rate, I was introduced to the following by a researcher in geography who asked me to install one of these tools in the Compute Canada cloud for him:
 
-* [SciencePo Medialab Tools](https://medialab.sciencespo.fr/en/tools/)
- * This group, founded by Bruno Latour, does a lot of code development of open tools, which is awesome! And this list led me to this:
-* [DMI Tools](https://wiki.digitalmethods.net/Dmi/ToolDatabase)
- * This set of web based tools, produced by the Digital Methods Initiative, is ready to use right there. Some require authentication (i.e. membership in the Initiative) to use, but others are open to use by anyone.
++ [SciencePo Medialab Tools](https://medialab.sciencespo.fr/en/tools/)
+  * This group, founded by Bruno Latour, does a lot of code development of open tools, which is awesome! And this list led me to this:
++ [DMI Tools](https://wiki.digitalmethods.net/Dmi/ToolDatabase)
+  * This set of web based tools, produced by the Digital Methods Initiative, is ready to use right there. Some require authentication (i.e. membership in the Initiative) to use, but others are open to use by anyone.
 
 On the social sciences side of things you will find, instead of "textual analysis", "influence mapping" or "controversy mapping", and so on. But many of the 'tools of the trade' are the same: Gephi, Voyant, OpenRefine, Rawgraphs, etc.
 
