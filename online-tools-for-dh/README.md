@@ -13,7 +13,7 @@ There are lots of lists of tools, many associated with university libraries or D
 + [TAPoR](http://tapor.ca/)
   * This is now in version 3, rebuilt in 2018, and incorporates a previous large list, DiRT. Originally targeted at textual analysis tools, with the incorporation of DiRT it now includes many other areas, including GIS, photo/video/audio, etc.
 + [Digital Humanities Tools](http://dhresourcesforprojectbuilding.pbworks.com/w/page/69244319/Digital%20Humanities%20Tools)
-  * Maintained and curated by Alan Liu, this is targetted at free or mostly free tools, with a "[b]ias toward tools that can be run online or installed on a personal computer without needing an institutional server." ...in other words, right up our alley!
+  * Maintained and curated by Alan Liu, this is targeted at free or mostly free tools, with a "[b]ias toward tools that can be run online or installed on a personal computer without needing an institutional server." ...in other words, right up our alley!
 
 On the social sciences side of things, I found the following (from a similar random search for "social sciences tools"):
 
@@ -33,11 +33,11 @@ On the social sciences side of things you will find, instead of "textual analysi
 
 ### Examples
 
-Research has basically three phases, gathering, analysis and publication/presentation. Yes, that's an over simplification. But it gives us a narative arc with which to look at tools. I'm going to skim through two examples, one from social science and one from more traditional DH, textual analysis. We will look at one real example and one fake.
+Research has basically three phases, gathering, analysis and publication/presentation. Yes, that's an over simplification. But it gives us a narrative arc with which to look at tools. I'm going to skim through two examples, one from social science and one from more traditional DH, textual analysis. We will look at one real example and one fake.
 
 #### Transboundary E-Waste
 
-This is the real example, a multi year reasearch program that used web based tools to produce a physical book and an online book. Here's the online end result:
+This is the real example, a multi year research program that used web based tools to produce a physical book and an online book. Here's the online end result:
 
 + [Reassembling Rubbish](https://scalar.usc.edu/works/reassembling-rubbish/index)
 
@@ -49,7 +49,7 @@ In 2016, Josh came to Compute Canada looking for help with hosting some web base
 
 + [Hyphe](https://hyphe.medialab.sciences-po.fr/)
 
-This is a 'web scraper', but targetted at social scientists, with a focus on curation of web 'corpora', sets of web pages curated and organized by the researcher in a guided fashion. At the time, it needed Linux to run, which Josh did not have, and he needed to be able to run jobs independently of his desktop computer. So we got him some Compute Canada Cloud resources, and I built a VM for him and installed the tool. These days, it's easier to do, as it is now provided as a 'container' which can be run on any OS that can run Docker. But the benefit of desktop independence is still a strong incentive to run this in the cloud.
+This is a 'web scraper', but targeted at social scientists, with a focus on curation of web 'corpora', sets of web pages curated and organized by the researcher in a guided fashion. At the time, it needed Linux to run, which Josh did not have, and he needed to be able to run jobs independently of his desktop computer. So we got him some Compute Canada Cloud resources, and I built a VM for him and installed the tool. These days, it's easier to do, as it is now provided as a 'container' which can be run on any OS that can run Docker. But the benefit of desktop independence is still a strong incentive to run this in the cloud.
 
 Let's look at one of the results of Josh's work, before taking a closer look at the tool:
 
@@ -72,7 +72,7 @@ The results take a lot of work to refine, and extract useful information, even a
 
 #### Text analysis
 
-This is the fake example. I'm going to grab an e-text from Ibiblio (Project Gutenberg), push it through a couple of Voyant tools, and display the result in a project on CWRC. As a companion to the TAPoR tool list, the team that produced TAPoR also produced this site, a colleciton of "research methods and techniques for analyzing text":
+This is the fake example. I'm going to grab an e-text from Ibiblio (Project Gutenberg), push it through a couple of Voyant tools, and display the result in a project on CWRC. As a companion to the TAPoR tool list, the team that produced TAPoR also produced this site, a collection of "research methods and techniques for analyzing text":
 
 + [Methodica Commons](http://methodi.ca/)
 
@@ -88,7 +88,7 @@ What do you do when you've got some material, a research project, and you want t
 
 The [Canadian Writing Research Collaboratory](https://cwrc.ca/) is "an online infrastructure for literary research in and about Canada designed to meet the challenges and embrace the opportunities of the digital turn." (See 'About'.) You can see from some of the active projects that this has a quite broad sense of 'literary research' that includes born digital material as well as more traditional sources. Explore the 'Collaboratory' => 'CWRC Commons' => 'CWRC Videos' for some short introductory material.
 
-The underlying technology is Islandora, which is widely used for library digital collections. The 'repository' back end is [Fedora](https://duraspace.org/fedora/) and the 'presentation' front end is [Drupal](https://www.drupal.org/). The 'Islandora' part is a collection of Drupal plugins that provide 'CRUD' functionality on the backend, including management of metadata schema, object types, etc., as well as Solr indexing. 'CRUD' is 'create, read, update, delete', the full set of functions for lifecycle management of objects in the repository. Don't worry if the word sallad doesn't mean much to you. That's a topic for a separate workshop/course. But two important things need to be said about CWRC in particular:
+The underlying technology is Islandora, which is widely used for library digital collections. The 'repository' back end is [Fedora](https://duraspace.org/fedora/) and the 'presentation' front end is [Drupal](https://www.drupal.org/). The 'Islandora' part is a collection of Drupal plugins that provide 'CRUD' functionality on the back end, including management of metadata schema, object types, etc., as well as Solr indexing. 'CRUD' is 'create, read, update, delete', the full set of functions for life cycle management of objects in the repository. Don't worry if the word salad doesn't mean much to you. That's a topic for a separate workshop/course. But two important things need to be said about CWRC in particular:
 
 + It is hosted, which means if you work with them, they take care of all the underlying OS and application management, including backups and so on. That is a big advantage if you need the data integrity and metadata flexibility that this sort of platform offers and you don't have or have access to the technical skills to manage the software stack yourself.
 
