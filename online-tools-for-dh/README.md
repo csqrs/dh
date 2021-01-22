@@ -33,7 +33,7 @@ On the social sciences side of things you will find, instead of "textual analysi
 
 ### Examples
 
-Research has basically three phases, gathering, analysis and publication/presentation. Yes, that's an over simplification. But it gives us a narrative arc with which to look at tools. I'm going to skim through two examples, one from social science and one from more traditional DH, textual analysis. We will look at one real example and one fake.
+Research has basically three phases, gathering, analysis, and publication/presentation. Yes, that's an over simplification. But it gives us a narrative arc with which to look at tools. I'm going to skim through two examples, one from social science and one from more traditional DH, textual analysis. We will look at one real example and one fake.
 
 #### Transboundary E-Waste
 
@@ -88,7 +88,7 @@ What do you do when you've got some material, a research project, and you want t
 
 The [Canadian Writing Research Collaboratory](https://cwrc.ca/) is "an online infrastructure for literary research in and about Canada designed to meet the challenges and embrace the opportunities of the digital turn." (See 'About'.) You can see from some of the active projects that this has a quite broad sense of 'literary research' that includes born digital material as well as more traditional sources. Explore the 'Collaboratory' => 'CWRC Commons' => 'CWRC Videos' for some short introductory material.
 
-The underlying technology is Islandora, which is widely used for library digital collections. The 'repository' back end is [Fedora](https://duraspace.org/fedora/) and the 'presentation' front end is [Drupal](https://www.drupal.org/). The 'Islandora' part is a collection of Drupal plugins that provide 'CRUD' functionality on the back end, including management of metadata schema, object types, etc., as well as Solr indexing. 'CRUD' is 'create, read, update, delete', the full set of functions for life cycle management of objects in the repository. Don't worry if the word salad doesn't mean much to you. That's a topic for a separate workshop/course. But two important things need to be said about CWRC in particular:
+The underlying technology is Islandora, which is widely used for library digital collections. The 'repository' back end is [Fedora](https://duraspace.org/fedora/) and the 'presentation' front end is [Drupal](https://www.drupal.org/). The 'Islandora' part is a collection of Drupal plugins that provide 'CRUD' functionality on the back end, including management of metadata schema, object types, objects, collections, etc., as well as Solr and triple store indexing. 'CRUD' is 'create, read, update, delete', the full set of functions for life cycle management of objects in the repository. Don't worry if the word salad doesn't mean much to you. That's a topic for a separate workshop/course. But two important things need to be said about CWRC in particular:
 
 + It is hosted, which means if you work with them, they take care of all the underlying OS and application management, including backups and so on. That is a big advantage if you need the data integrity and metadata flexibility that this sort of platform offers and you don't have or have access to the technical skills to manage the software stack yourself.
 
