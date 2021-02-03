@@ -8,7 +8,7 @@ What do you do when your personal computer is no longer sufficient for your rese
 
 Let's start by looking at how to find DH tools. Well, just do a web search with your favourite search engine.
 
-There are lots of lists of tools, many associated with university libraries or DH/HSS programs, and they often contain lists of lists of tools. It won't take long to find a handfull of quite large lists of tools:
+There are lots of lists of tools, many associated with university libraries or DH/HSS programs, and they often contain lists of lists of tools. It won't take long to find a handful of quite large lists of tools:
 
 + [TAPoR](http://tapor.ca/)
   * This is now in version 3, rebuilt in 2018, and incorporates a previous large list, DiRT. Originally targeted at textual analysis tools, with the incorporation of DiRT it now includes many other areas, including GIS, photo/video/audio, etc.
@@ -19,12 +19,12 @@ On the social sciences side of things, I found the following (from a similar ran
 
 + [SAGE Ocean Research Tools Directory](https://ocean.sagepub.com/research-tools-directory)
   *  This is provided by the SAGE Publishing company as part of their SAGE Ocean research portal.
-+ [Data Analysis Tools and Training](https://ox.libguides.com/c.php?g=422947&p=2888387)
++ [Data Analysis tools & training](https://ox.libguides.com/c.php?g=422947&p=2888387)
   * This is maintained by the Bodleian Library at Oxford.
 
 There seem to be fewer such resource lists for social science than for humanities, though that's anecdotal. At any rate, I was introduced to the following by a researcher in geography who asked me to install one of these tools in the Compute Canada cloud for him:
 
-+ [SciencesPo Medialab Tools](https://medialab.sciencespo.fr/en/tools/)
++ [SciencesPo medialab Tools](https://medialab.sciencespo.fr/en/tools/)
   * This group, founded by Bruno Latour, does a lot of code development of open tools, which is awesome! And this list led me to this:
 + [DMI Tools](https://wiki.digitalmethods.net/Dmi/ToolDatabase)
   * This set of web based tools, produced by the Digital Methods Initiative, is ready to use right there. Some require authentication (i.e. membership in the Initiative) to use, but others are open to use by anyone.
@@ -43,7 +43,7 @@ This is the real example, a multi-year research project that used web-based tool
 
 The physical book was published by MIT Press in 2018 ([Reassembling Rubbish](https://mitpress.mit.edu/books/reassembling-rubbish)), and this is the associated electronic publication, hosted on Scalar. [Josh Lepawsky](https://www.mun.ca/geog/people/faculty/jlepawsky.php) is a professor of Geography at Memorial University of Newfoundland.
 
-[Scalar](https://scalar.me/anvc/scalar/) is a well known digital scholarly publishing platform. The results, as you can see, can be very "book-like", insofar as they can include chapters, indices, footnotes, etc. This is an example of a "book companion". The platform is capable of less book-like use too, though, e.g. digital exhibits. But they all have a definite 'scalar' look and feel.
+[Scalar](https://scalar.me/anvc/scalar/) is a well-known digital scholarly publishing platform. The results, as you can see, can be very "book-like", insofar as they can include chapters, indices, footnotes, etc. This is an example of a "book companion". The platform is capable of less book-like use too, though, e.g. digital exhibits. But they all have a definite 'scalar' look and feel.
 
 In 2016, Josh came to Compute Canada looking for help with hosting some web based tools he needed for the preparation of material for this project. He had already received some help from Memorial University, specifically with hosting media files for the publication, which he had already started building on Scalar. But he had needs they were unable to provide, namely cloud based application hosting. Specifically, he wanted to use this tool as a data gathering and analysis engine:
 
@@ -72,7 +72,7 @@ The results take a lot of work to refine, and extract useful information, even a
 
 #### Text analysis
 
-This is the fake example. I'm going to grab an e-text from Ibiblio (Project Gutenberg), push it through a couple of Voyant tools, and display the result in a project on CWRC. As a companion to the TAPoR tool list, the team that produced TAPoR also produced this site, a collection of "research methods and techniques for analyzing text":
+This is the fake example. I'm going to grab an e-text from ibiblio (Project Gutenberg), push it through a couple of Voyant tools, and display the result in a project on CWRC. As a companion to the TAPoR tool list, the team that produced TAPoR also produced this site, a collection of "research methods and techniques for analyzing text":
 
 + [Methodica Commons](http://methodi.ca/)
 
@@ -88,13 +88,13 @@ What do you do when you have a some digital material from a research project or 
 
 The [Canadian Writing Research Collaboratory](https://cwrc.ca/) is "an online infrastructure for literary research in and about Canada designed to meet the challenges and embrace the opportunities of the digital turn." (See 'About'.) You can see from some of the active projects that this has a quite broad sense of 'literary research' that includes born digital material as well as more traditional sources. Explore the 'Collaboratory' => 'CWRC Commons' => 'CWRC Videos' for some short introductory material.
 
-The underlying technology is Islandora, which is widely used for library digital collections. The 'repository' back end is [Fedora](https://duraspace.org/fedora/) and the 'presentation' front end is [Drupal](https://www.drupal.org/). The 'Islandora' part is a collection of Drupal plugins that provide 'CRUD' functionality on the back end, including management of metadata schema, object types, objects, collections, etc., as well as Solr and triple store indexing. 'CRUD' is 'create, read, update, delete', the full set of functions for life cycle management of objects in the repository. Don't worry if the word salad doesn't mean much to you. That's a topic for a separate workshop/course. But two important things need to be said about CWRC in particular:
+The underlying technology is Islandora, which is widely used for library digital collections. The 'repository' back-end is [Fedora](https://duraspace.org/fedora/) and the 'presentation' front-end is [Drupal](https://www.drupal.org/). The 'Islandora' part is a collection of Drupal plugins that provide 'CRUD' functionality on the back-end, including management of metadata schema, object types, objects, collections, etc., as well as Solr and triplestore indexing. 'CRUD' is 'create, read, update, delete', the full set of functions for life cycle management of objects in the repository. Don't worry if the word salad doesn't mean much to you. That's a topic for a separate workshop/course. But two important things need to be said about CWRC in particular:
 
 + It is hosted, which means if you work with them, they take care of all the underlying OS and application management, including backups and so on. That is a big advantage if you need the data integrity and metadata flexibility that this sort of platform offers and you don't have or have access to the technical skills to manage the software stack yourself.
 
-+ The power of Drupal, in significant (though asterisked) measure, can be used for presentation development. You are not restricted completely to the sort of "modern repository" look and feel of Islandora. The caveats have to do with how the front end accesses and displays the back end objects/data. But it is quite possible to develop lovely looking online exhibits.
++ The power of Drupal, in significant (though asterisked) measure, can be used for presentation development. You are not restricted completely to the sort of "modern repository" look and feel of Islandora. The caveats have to do with how the front-end accesses and displays the back-end objects/data. But it is quite possible to develop lovely looking online exhibits.
 
-Other 'value add' of this platform includes integration with tools such as Voyant and CWRC-Writer, as we will see.
+Another 'value add' of this platform includes integration with tools such as Voyant and CWRC-Writer, as we will see.
 
 ### Other Resources
 
