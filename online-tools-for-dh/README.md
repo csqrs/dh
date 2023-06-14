@@ -17,7 +17,7 @@ There are lots of lists of tools, many associated with university libraries or D
 
 On the social sciences side of things, I found the following (from a similar random search for "social sciences tools"):
 
-+ [SAGE Ocean Research Tools Directory](https://ocean.sagepub.com/research-tools-directory)
++ [SAGE Ocean Research Tools Directory](https://ocean.sagepub.com/research-tools-directory/intro)
   *  This is provided by the SAGE Publishing company as part of their SAGE Ocean research portal.
 + [Data Analysis tools & training](https://ox.libguides.com/c.php?g=422947&p=2888387)
   * This is maintained by the Bodleian Library at Oxford.
